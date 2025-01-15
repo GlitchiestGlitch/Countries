@@ -30,7 +30,8 @@ public class Country
     return(this.imageFile);
   }
   // Write a toString() method that returns a concatenated String of 3 of the instance variables in a sentence like "..'s capital is .. and its primary language is ..."
- public String toString(){
+ //To string to return information back to the review button
+  public String toString(){
     return((getName() + "'s capital is " + getCapital() + " and its primary langauge is " + getLanguage()));
  }
 
